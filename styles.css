@@ -8,12 +8,18 @@ body {
   font-family: "Lora", "Times New Roman", Times, serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body > * {
   padding: 20px;
 }
 
-section * {
-  bottom: 0;
+section {
+  display: grid;
+  align-content: end;
 }
 
 .black {
@@ -32,4 +38,11 @@ section * {
 
 .white {
   background-color: white;
+}
+
+.bear:hover {
+  background-image: url("https://thumbs.gfycat.com/RelievedClutteredCirriped-max-1mb.gif");
+  color: white;
+  background-size: cover;
+  cursor: pointer;
 }
