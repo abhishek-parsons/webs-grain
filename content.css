@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+body {
+  margin: 0px;
+  font-family: "Lora", "Times New Roman", Times, serif;
+}
+
+article p,
+article hr {
+  margin: 45px 0px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 16px;
+  grid-template-rows: 100vh;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 59px;
+  background-color: #212529;
+}
+
+img {
+  max-width: 100%;
+}
+
+video {
+  max-width: 100%;
+}
+
+article {
+  padding-left: 220px;
+  padding-right: 220px;
+  overflow-y: scroll;
+  line-height: 145%;
+}
