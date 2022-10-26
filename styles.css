@@ -80,7 +80,7 @@ section a {
   background-image: url("https://media3.giphy.com/media/nbNWgtnMgIYpUSy3e9/giphy.gif?cid=790b7611bb3ab6ac590b85b28b7095b076a3f1b0a5dca724&rid=giphy.gif&ct=g");
   color: white;
   background-size: cover;
-  cursor: pointer;
+  cursor: progress;
 }
 
 .website:hover {
@@ -122,7 +122,7 @@ section a {
   background-image: url("https://media3.giphy.com/media/H4fpS4Xxa88jKyag0k/giphy.gif?cid=ecf05e47zbd3s54867kmmkngjgv81xob3qbf69d4dl8wnxoi&rid=giphy.gif&ct=g");
   color: white;
   background-size: cover;
-  cursor: pointer;
+  cursor: wait;
 }
 
 .tech:hover {
