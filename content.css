@@ -63,8 +63,8 @@ video {
 }
 
 article {
-  padding-left: 220px;
-  padding-right: 220px;
+  padding-left: 3000px;
+  padding-right: 300px;
   overflow-y: scroll;
   line-height: 145%;
 }
@@ -94,8 +94,8 @@ article {
 
 @media screen and (min-width: 768px) {
   article {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
   }
 }
 
