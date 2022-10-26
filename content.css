@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
+@font-face {
+  font-family: VTCCarrie;
+  src: url(./fonts/VTCCarrie-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+  color: #212529;
+}
+
+h1 {
+  font-family: VTCCarrie;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header > p {
+  opacity: 60%;
+  margin: 5px;
+}
+
 body {
   margin: 0px;
   font-family: "Lora", "Times New Roman", Times, serif;
@@ -40,4 +67,75 @@ article {
   padding-right: 220px;
   overflow-y: scroll;
   line-height: 145%;
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    width: 1370px;
+  }
+}
+@media screen and (min-width: 1600px) {
+  body {
+    width: 1570px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  body {
+    width: 1870px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  article {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  article {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  article {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  main {
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 16px;
+  }
+}
+
+@media print {
+  @page {
+    margin-top: 20mm;
+  }
+  main {
+    display: block;
+    margin-left: 10mm;
+    margin-right: 10mm;
+    font-size: 12pt;
+  }
+
+  nav {
+    display: none;
+  }
+
+  article {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 145%;
+  }
+
+  audio,
+  video {
+    display: none;
+  }
 }
